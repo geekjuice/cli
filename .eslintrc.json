@@ -1,0 +1,21 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "env": {
+    "es2020": true,
+    "jest": true,
+    "node": true
+  },
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "prettier/@typescript-eslint",
+    "prettier"
+  ],
+  "plugins": ["@typescript-eslint"],
+  "rules": {
+    "no-console": "off"
+  }
+}
